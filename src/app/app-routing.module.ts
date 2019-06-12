@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GridListComponent } from './components/grid-list/grid-list.component';
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
-import { HomePageComponent } from './components/home-page/home-page.component';
+import { HomePageComponent,headerComponents} from './components/home-page/home-page.component';
 
 
 const routes: Routes = [
@@ -16,4 +16,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [GridListComponent,ProfilePageComponent]
+export const routingComponents = [GridListComponent,ProfilePageComponent,HomePageComponent,headerComponents]
