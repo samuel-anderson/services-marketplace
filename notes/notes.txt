@@ -1,0 +1,28 @@
+- Angular components
+- Deploy app using AWS Cloud Services
+- Setup AWS Storage Service to upload documents
+
+ng new angular-app --routing //create app
+ng g c grid-list -it -is //create component #1
+ng g c profile-page -it -is //create component #2
+ng build --prod //build for production
+
+aws user with admin access
+aws cli configure access key
+configure package json scripts for npm run
+
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1560318418162",
+    "Statement": [
+        {
+            "Sid": "Stmt1560318367059",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::146001722309:user/sam"
+            },
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::marketplace-angular-app/*"
+        }
+    ]
+}
