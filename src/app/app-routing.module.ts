@@ -1,9 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { GridListComponent } from './grid-list/grid-list.component';
-import { ProfilePageComponent } from './profile-page/profile-page.component';
+import { GridListComponent } from './components/grid-list/grid-list.component';
+import { ProfilePageComponent } from './components/profile-page/profile-page.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+
 
 const routes: Routes = [
+  {path: '', component: HomePageComponent},
   {path: 'page-2', component: GridListComponent},
   {path: 'page-3', component: ProfilePageComponent}
 ];

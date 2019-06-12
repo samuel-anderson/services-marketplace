@@ -37,3 +37,11 @@ npm run aws-clean && npm run aws-deploy
 
 - configure scripts in package json
 - devops - configure s3 bucket permission, user IAM, & policy
+
+AngularJS app
+AWS S3 Bucket Static Website Hosting
+
+ng g c components/home-page
+    ng g c components/home-page/home-header
+    ng g c components/home-page/home-content
+    ng g c components/home-page/home-footer
