@@ -19,10 +19,21 @@ configure package json scripts for npm run
             "Sid": "Stmt1560318367059",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::146001722309:user/sam"
+                "AWS": "*"
             },
             "Action": "s3:*",
             "Resource": "arn:aws:s3:::marketplace-angular-app/*"
         }
     ]
 }
+///////////////////////////////////////////////////
+
+AngularCLI AWSCLI
+- ng new app-name
+- np g c component-name
+
+npm run build
+npm run aws-clean && npm run aws-deploy
+
+- configure scripts in package json
+- devops - configure s3 bucket permission, user IAM, & policy

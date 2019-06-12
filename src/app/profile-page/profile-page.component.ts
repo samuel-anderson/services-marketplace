@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-profile-page',
-  template: `
-    <p>
-      profile-page works!
-    </p>
-  `,
+  templateUrl: './profile-page.component.html',
   styles: []
 })
 export class ProfilePageComponent implements OnInit {

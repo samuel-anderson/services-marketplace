@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-grid-list',
-  template: `
-    <p>
-      grid-list works!
-    </p>
-  `,
+  templateUrl: './grid-list.component.html',
   styles: []
 })
 export class GridListComponent implements OnInit {
