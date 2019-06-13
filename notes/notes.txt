@@ -45,3 +45,18 @@ ng g c components/home-page
     ng g c components/home-page/home-header
     ng g c components/home-page/home-content
     ng g c components/home-page/home-footer
+
+Grid Layout
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+
+Grid Elements
+A grid layout consists of a parent element, with one or more child elements.
+
+grid-column-gap
+grid-row-gap
+grid-gap 
+
+The grid-gap property can also be used to set both the row gap and the column gap in one value
+The grid-gap property is a shorthand property for the grid-column-gap and the grid-row-gap properties:
+
+
