@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: 2fr 5fr 3fr;
+    grid-template-areas: 
+      "header header header"
+      "main main main"
+      "footer footer footer";
+    grid-gap: .75em;
+}
+
+/*@media(max-width: 768px){}
+@media(max-width: 480px){}*/
+
+header{
+    grid-area: header;
+    background-color: teal;
+}
+main{
+    grid-area: main;
+    background-color: lightblue;
+}
+footer{
+    grid-area: footer;
+    background-color: lightgreen;
+}
