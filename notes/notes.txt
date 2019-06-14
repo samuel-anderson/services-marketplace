@@ -59,4 +59,8 @@ grid-gap
 The grid-gap property can also be used to set both the row gap and the column gap in one value
 The grid-gap property is a shorthand property for the grid-column-gap and the grid-row-gap properties:
 
+Get Boostrap: npm install bootstrap jquery popper.js --save
+configure angular.json style/js arrays with bootstrap css & jquery/bootstrap js
+
+Angular: npm install --save @ng-bootstrap/ng-bootstrap && npm install bootstrap --save
 
