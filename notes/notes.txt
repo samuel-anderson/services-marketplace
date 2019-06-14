@@ -1,3 +1,22 @@
+ANGULAR CLI 
+    ng new, ng g c, ng serve, ng build --prod
+AWS CLI 
+    aws s3 rm, aws s3 cp
+PACKAGE JSON 
+    scripts npm run [script]
+ANGULAR JSON 
+    styles [..path..], scripts [..path..]
+NPM 
+    ng-bootstrap, bootstrap, jquery, popper.js
+AWS 
+    static website hosting
+
+MISSING
+    *tests*
+
+TODO
+    ng-bootstrap, module, click events, passing data
+-----------------------------------------------------------------------
 - Angular components
 - Deploy app using AWS Cloud Services
 - Setup AWS Storage Service to upload documents
