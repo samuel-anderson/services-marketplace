@@ -7,7 +7,7 @@ import { HomePageComponent,headerComponents} from './components/home-page/home-p
 
 const routes: Routes = [
   {path: '', component: HomePageComponent},
-  {path: 'page-2', component: GridListComponent},
+  {path: 'grid-list', component: GridListComponent},
   {path: 'page-3', component: ProfilePageComponent}
 ];
 

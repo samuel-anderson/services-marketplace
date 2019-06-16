@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HomeHeaderComponent } from './home-header/home-header.component';
 import { HomeContentComponent } from './home-content/home-content.component';
 import { HomeFooterComponent } from './home-footer/home-footer.component';
 
@@ -14,7 +13,13 @@ export class HomePageComponent implements OnInit {
 
   ngOnInit() {
   }
+  login(){
+    alert("clicked login button");
+  }
+  signup(){
+    alert("clicked signup button");
+  }
 
 }
 
-export const headerComponents = [HomeHeaderComponent,HomeContentComponent,HomeFooterComponent]
+export const headerComponents = [HomeContentComponent,HomeFooterComponent]
